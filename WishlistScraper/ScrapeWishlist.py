@@ -14,7 +14,7 @@ Description: Scrapes person's wishlist and returns the data on all wishlisted it
 def get_wishlist():
     #Attempts to get wishlist of specified user 
     
-    url = 'https://store.steampowered.com/wishlist/id/USERNAME/#sort=order'     #Edit the USERNAME to the account to be scraped
+    url = 'https://store.steampowered.com/wishlist/id/dragonphoenix34/#sort=order'
     response = get_text(url)
 
     if response is not None:

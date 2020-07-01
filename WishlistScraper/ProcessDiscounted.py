@@ -4,7 +4,7 @@ Date Last Modified: 1/7/2020
 Description: Processes scraped data to only discounted items
 """
 
-def scrape_wishlist(data):
+def processData(data):
     #Filters out non discounted items
     
     for key in data:
