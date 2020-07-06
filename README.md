@@ -9,3 +9,11 @@ Currently containes only one web scraper that scrapes a target user's wishlist f
 The wishlist scraper is used in a Django app where the information from the scrape is displayed.
 
 Future web scraper idea is to scrape for discounted DLC items for games that a target user owns.
+
+Requirements
+  Python 3
+    contextlib
+    json module
+    re module
+    requests module
+    
