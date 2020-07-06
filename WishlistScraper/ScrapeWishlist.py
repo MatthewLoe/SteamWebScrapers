@@ -11,10 +11,9 @@ Date Last Modified: 1/7/2020
 Description: Scrapes person's wishlist and returns the data on all wishlisted items
 """
 
-def get_wishlist():
+def get_wishlist(url):
     #Attempts to get wishlist of specified user 
     
-    url = 'https://store.steampowered.com/wishlist/id/dragonphoenix34/#sort=order'
     response = get_text(url)
 
     if response is not None:
